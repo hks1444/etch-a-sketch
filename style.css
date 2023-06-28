@@ -1,0 +1,35 @@
+.leftbuttons button{
+    height: 120px;
+    width:200px;
+    display: block;
+}
+
+#canvas{
+    justify-content: stretch;
+    align-items: stretch;
+    flex-direction: column;
+    width: 644px;
+    height: 644px;
+    padding: 0;
+    border-color: black;
+    display: flex;
+    border: 2px solid black;
+}
+
+.leftbuttons{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height:640px;
+    width:260px;
+    border: 5px;
+    border-color:black;
+}
+body{
+    height: 720px;
+    width:1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
